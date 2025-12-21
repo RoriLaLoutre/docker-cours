@@ -1,0 +1,9 @@
+services:
+
+  bombard:
+    image: bombard:1.0
+    container_name: bombard
+    ports: 
+      - 3001:3001
+    volumes:
+      - ./src:/app/src

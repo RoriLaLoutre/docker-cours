@@ -1,0 +1,10 @@
+services:
+  db2:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=123
+
+  pma2:
+    image: adminer
+    ports:
+      - 8080:8080
